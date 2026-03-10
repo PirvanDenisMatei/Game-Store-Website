@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\hagni\\documents\\github\\game-store-website\\game_store\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\hagni\\documents\\github\\game-store-website\\game_store\\game_store.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:game_store.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\hagni\\documents\\github\\game-store-website\\game_store\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\hagni\\documents\\github\\game-store-website\\game_store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:12:21.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:12:24.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T18:12:05.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game_Store.http",
+              "DocumentMoniker": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.http",
+              "RelativeDocumentMoniker": "Game_Store.http",
+              "ToolTip": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.http",
+              "RelativeToolTip": "Game_Store.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-10T18:12:49.909Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
