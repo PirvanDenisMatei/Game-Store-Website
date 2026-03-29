@@ -1,3 +1,4 @@
+using Game_Store.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Game_Store.Controllers
@@ -6,11 +7,6 @@ namespace Game_Store.Controllers
     [Route("[controller]")]
     public class GameStoreController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
         private readonly ILogger<GameStoreController> _logger;
 
         public GameStoreController(ILogger<GameStoreController> logger)
@@ -18,16 +14,10 @@ namespace Game_Store.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<GameStore> Get()
+        [HttpGet(Name = "GetSomething")]
+        public int Get(int id)
         {
-            return Enumerable.Range(1, 5).Select(index => new GameStore
-            {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+            return 0;
         }
     }
 }
