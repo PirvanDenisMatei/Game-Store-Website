@@ -1,4 +1,4 @@
-@Game_Store_HostAddress = http://localhost:5087
+@Game_Store_HostAddress = mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.6
 
 GET {{Game_Store_HostAddress}}/weatherforecast/
 Accept: application/json

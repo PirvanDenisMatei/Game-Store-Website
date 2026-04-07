@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using System.Text.Json.Serialization;
 
 namespace Game_Store.Models
 {
@@ -10,11 +11,16 @@ namespace Game_Store.Models
         public string? Id { get; set; }
 
         [BsonElement("Name")]
-        public string GameName { get; set; } = null!;
+        [JsonPropertyName("Name")]
+        public string Name { get; set; } = null!;
 
         public decimal Price { get; set; }
 
-        public string Category { get; set; } = null!;
+        public string Genre { get; set; } = null!;
+
+        public string Nplayers { get; set; } = null!;
+
+        public string Catchphrase { get; set; } = null!;
 
         public string Developer { get; set; } = null!;
     }

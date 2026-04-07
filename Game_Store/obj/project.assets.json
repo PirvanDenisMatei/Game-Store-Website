@@ -1035,23 +1035,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hagni\\.nuget\\packages\\": {},
+    "C:\\Users\\pirva\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.csproj",
+      "projectUniqueName": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.csproj",
       "projectName": "Game_Store",
-      "projectPath": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.csproj",
-      "packagesPath": "C:\\Users\\Hagni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hagni\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\obj\\",
+      "projectPath": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.csproj",
+      "packagesPath": "C:\\Users\\pirva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hagni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pirva\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1060,6 +1060,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1112,7 +1113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
