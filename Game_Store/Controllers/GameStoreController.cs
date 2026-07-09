@@ -10,35 +10,48 @@ namespace Game_Store.Controllers
     {
         private readonly GamesService _gamesService;
 
-        public GameStoreController(GamesService booksService) =>
-        _gamesService = booksService;
+        public GameStoreController(GamesService gamesService) =>
+        _gamesService = gamesService;
 
         [HttpGet]
         public async Task<List<Game>> Get() => await _gamesService.GetAsync();
 
+        [HttpGet("{name}")]
+        public async Task<ActionResult<Game>> GetByName(string name)
+        {
+            var game = await _gamesService.GetAsyncName(name);
+
+            if (game is null)
+            {
+                return NotFound();
+            }
+
+            return game;
+        }
+
         [HttpGet("{id:length(24)}")]
         public async Task<ActionResult<Game>> Get(string id)
         {
-            var book = await _gamesService.GetAsync(id);
+            var game = await _gamesService.GetAsync(id);
 
-            if (book is null)
+            if (game is null)
             {
                 return NotFound();
             }
 
-            return book;
+            return game;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(Game newBook)
+        public async Task<IActionResult> Post(Game newGame)
         {
-            await _gamesService.CreateAsync(newBook);
+            await _gamesService.CreateAsync(newGame);
 
-            return CreatedAtAction(nameof(Get), new { id = newBook.Id }, newBook);
+            return CreatedAtAction(nameof(Get), new { id = newGame.Id }, newGame);
         }
 
         [HttpPut("{id:length(24)}")]
-        public async Task<IActionResult> Update(string id, Game updatedBook)
+        public async Task<IActionResult> Update(string id, Game updatedGame)
         {
             var book = await _gamesService.GetAsync(id);
 
@@ -47,9 +60,9 @@ namespace Game_Store.Controllers
                 return NotFound();
             }
 
-            updatedBook.Id = book.Id;
+            updatedGame.Id = book.Id;
 
-            await _gamesService.UpdateAsync(id, updatedBook);
+            await _gamesService.UpdateAsync(id, updatedGame);
 
             return NoContent();
         }
@@ -57,9 +70,9 @@ namespace Game_Store.Controllers
         [HttpDelete("{id:length(24)}")]
         public async Task<IActionResult> Delete(string id)
         {
-            var book = await _gamesService.GetAsync(id);
+            var game = await _gamesService.GetAsync(id);
 
-            if (book is null)
+            if (game is null)
             {
                 return NotFound();
             }

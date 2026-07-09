@@ -76,3 +76,6 @@ C:\Users\pirva\Documents\GitHub\Game-Store-Website\Game_Store\obj\Debug\net8.0\r
 C:\Users\pirva\Documents\GitHub\Game-Store-Website\Game_Store\obj\Debug\net8.0\Game_Store.pdb
 C:\Users\pirva\Documents\GitHub\Game-Store-Website\Game_Store\obj\Debug\net8.0\Game_Store.genruntimeconfig.cache
 C:\Users\pirva\Documents\GitHub\Game-Store-Website\Game_Store\obj\Debug\net8.0\ref\Game_Store.dll
+C:\Users\pirva\Documents\GitHub\Game-Store-Website\Game_Store\obj\Debug\net8.0\Game_Store.RazorAssemblyInfo.cache
+C:\Users\pirva\Documents\GitHub\Game-Store-Website\Game_Store\obj\Debug\net8.0\Game_Store.RazorAssemblyInfo.cs
+C:\Users\pirva\Documents\GitHub\Game-Store-Website\Game_Store\bin\Debug\net8.0\Game_Store.staticwebassets.runtime.json

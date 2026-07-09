@@ -23,5 +23,7 @@ namespace Game_Store.Models
         public string Catchphrase { get; set; } = null!;
 
         public string Developer { get; set; } = null!;
+
+        public string ImagesPath { get; set; } = null!;
     }
 }

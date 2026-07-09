@@ -20,6 +20,9 @@ namespace Game_Store.Services
         public async Task<List<Game>> GetAsync() =>
         await _gamesCollection.Find(_ => true).ToListAsync();
 
+        public async Task<Game?> GetAsyncName(string name) =>
+        await _gamesCollection.Find(x => x.Name == name).FirstOrDefaultAsync();
+
         public async Task<Game?> GetAsync(string id) =>
         await _gamesCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
 

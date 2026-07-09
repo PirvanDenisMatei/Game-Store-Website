@@ -72,6 +72,45 @@
         }
       }
     },
+    "/GameStore/{name}": {
+      "get": {
+        "tags": [
+          "GameStore"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Game"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Game"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Game"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/GameStore/{id}": {
       "get": {
         "tags": [
@@ -207,6 +246,10 @@
             "nullable": true
           },
           "Developer": {
+            "type": "string",
+            "nullable": true
+          },
+          "ImagesPath": {
             "type": "string",
             "nullable": true
           }

@@ -1,0 +1,55 @@
+﻿@page
+@using Game_Store.Pages
+@model DetailsModel
+
+@if(Model.game != null)
+{
+	<h1 class="titlecard">@Model.game.Name</h1>
+
+	<div class="images-container">
+		<img src="@(Model.game.ImagesPath)cover.jpg" class="game-cover" alt="@Model.game.Name">
+
+		<div>
+			<img id="gameImage" src="@(Model.game.ImagesPath)image_1.jpg" class="game-image" alt="@Model.game.Name">
+
+			<div class="slide-buttons">
+				<button id="prevBtn" class="btn btn-secondary">&lt;</button>
+				<button id="nextBtn" class="btn btn-secondary">&gt;</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="game-container">
+		<ul>
+			<li>Price: @Model.game.Price</li>
+			<li>Genre: @Model.game.Genre</li>
+			<li>Number of players: @Model.game.Nplayers</li>
+			<li>Developer: @Model.game.Developer</li>
+			<li>Catchphrase: "@Model.game.Catchphrase"</li>
+		</ul>
+	</div>
+	
+}
+
+<script>
+	let currentImage = 1;
+
+	const image = document.getElementById("gameImage");
+	const basePath = "@Model.game.ImagesPath";
+
+	document.getElementById("nextBtn").onclick = function () {
+
+		if (currentImage < 5)
+			currentImage++;
+
+		image.src = basePath + "image_" + currentImage + ".jpg";
+	};
+
+	document.getElementById("prevBtn").onclick = function () {
+
+		if (currentImage > 1)
+			currentImage--;
+
+		image.src = basePath + "image_" + currentImage + ".jpg";
+	};
+</script>

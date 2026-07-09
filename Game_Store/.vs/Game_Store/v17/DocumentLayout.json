@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\pages\\gamedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:pages\\gamedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\pages\\gamedetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:pages\\gamedetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\services\\gamesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:services\\gamesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\game_store.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:game_store.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\controllers\\gamestorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:controllers\\gamestorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|c:\\users\\pirva\\documents\\github\\game-store-website\\game_store\\game_store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF442FFB-3098-478D-B7FF-5B9F47318953}|Game_Store.csproj|solutionrelative:game_store.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 118,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,64 +86,114 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T18:12:21.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Models\\Game.cs",
               "RelativeDocumentMoniker": "Models\\Game.cs",
               "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Models\\Game.cs",
               "RelativeToolTip": "Models\\Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T18:16:34.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T18:16:34.983Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GamesService.cs",
               "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Services\\GamesService.cs",
               "RelativeDocumentMoniker": "Services\\GamesService.cs",
               "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Services\\GamesService.cs",
               "RelativeToolTip": "Services\\GamesService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAoAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T14:06:57.196Z"
+              "WhenOpened": "2026-07-06T13:18:09.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T16:37:21.517Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GameStoreController.cs",
-              "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Controllers\\GameStoreController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GameStoreController.cs",
-              "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Controllers\\GameStoreController.cs",
-              "RelativeToolTip": "Controllers\\GameStoreController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAUwEAAAAANAAAAAAAAAA==",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T18:12:05.419Z"
+              "WhenOpened": "2026-04-08T16:43:23.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Pages\\GameDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\GameDetails.cshtml",
+              "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Pages\\GameDetails.cshtml",
+              "RelativeToolTip": "Pages\\GameDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-06T13:30:31.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Game_Store.http",
-              "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.http",
-              "RelativeDocumentMoniker": "Game_Store.http",
-              "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.http",
-              "RelativeToolTip": "Game_Store.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAB+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-03-10T18:12:49.909Z"
+              "Title": "GameDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Pages\\GameDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\GameDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Pages\\GameDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\GameDetails.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T13:31:42.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-05T16:23:13.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Game_Store.csproj",
+              "DocumentMoniker": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.csproj",
+              "RelativeDocumentMoniker": "Game_Store.csproj",
+              "ToolTip": "C:\\Users\\pirva\\Documents\\GitHub\\Game-Store-Website\\Game_Store\\Game_Store.csproj",
+              "RelativeToolTip": "Game_Store.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-05T16:15:15.627Z"
             }
           ]
         },

@@ -1,0 +1,30 @@
+﻿@page
+@using Game_Store.Pages
+@model IndexModel
+@{ViewData["Title"] = "Home page"; }
+
+<h1 class="titlecard">Games to See</h1>
+
+
+<div class="container-fluid">
+	<div class="row row-cols-4 g-3">
+		@foreach (var game in Model.Games)
+		{
+			<div class="col">
+				<div class="game-container">
+					<a asp-page="/GameDetails" asp-route-id="@game.Id" class="btn btn-secondary w-100">@game.Name</a>
+
+					<ul class="mt-2">
+						<li>Price: @game.Price €</li>
+						<li>Genre: @game.Genre</li>
+						<li>Number of players: @game.Nplayers</li>
+						<li>Developer: @game.Developer</li>
+						<li>Catchphrase: "@game.Catchphrase"</li>
+					</ul>
+				</div>
+			</div>
+		}
+	</div>
+</div>
+
+

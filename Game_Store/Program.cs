@@ -9,6 +9,8 @@ builder.Services.AddSingleton<GamesService>();
 
 builder.Services.AddControllers().AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 
+builder.Services.AddRazorPages();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -23,7 +25,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseStaticFiles();
 app.UseAuthorization();
 
 app.Use(async (ctx, next) =>
@@ -40,4 +42,7 @@ app.MapControllers();
 //    Console.Write("Kocham cie!\n");
 //    await ctx.Response.WriteAsync("Done!");
 //});
+
+app.MapRazorPages();
+
 app.Run();

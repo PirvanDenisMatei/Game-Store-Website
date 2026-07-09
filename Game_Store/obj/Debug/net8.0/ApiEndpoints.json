@@ -28,7 +28,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "newBook",
+        "Name": "newGame",
         "Type": "Game_Store.Models.Game",
         "IsRequired": true
       }
@@ -75,7 +75,7 @@
         "IsRequired": true
       },
       {
-        "Name": "updatedBook",
+        "Name": "updatedGame",
         "Type": "Game_Store.Models.Game",
         "IsRequired": true
       }
@@ -97,5 +97,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Game_Store.Controllers.GameStoreController",
+    "Method": "GetByName",
+    "RelativePath": "GameStore/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Game_Store.Models.Game",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
